@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: gray;
+}
+
+#title {
+  position: relative;
+  text-align: center;
+}
+
+#quote,
+#img-div,
+#tribute-info {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#quote {
+  text-align: center;
+  font-style: italic;
+  font-size: medium;
+  background-color: green;
+}
+
+#img-div {
+  background: whitesmoke;
+  padding: 10px;
+}
+
+#image {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info h3 {
+  color: white;
+}
+
+#tribute-info ul li {
+  color: white;
+}
+
+#wiki-link {
+  text-align: center;
+  font-weight: bold;
+}
